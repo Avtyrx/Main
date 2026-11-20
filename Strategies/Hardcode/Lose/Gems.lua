@@ -1,5 +1,5 @@
 TDS:RemoveIndex()
-TDS:Loadout("Farm", "Boomerang", "Crook Boss", "Minigunner", "")
+TDS:Loadout("Farm", "Boomerang", "Crook Boss", "Minigunner", "EvolvedJuggernaut")
 TDS:Mode("Easy")
 TDS:GameInfo("Wretched Front", {})
 
@@ -184,4 +184,5 @@ TDS:Sell(19)
 TDS:Sell(20)
 TDS:Place("Crook Boss", 6.4959869384765625, 1.3890023231506348, 28.03474998474121, true)
 TDS:Place("Minigunner", 6.4959869384765625, 1.3890023231506348, 28.03474998474121, true)
+TDS:Place("EvolvedJuggernaut", 6.4959869384765625, 1.3890023231506348, 28.03474998474121, true)
 -- [ Wave 30 ] --
