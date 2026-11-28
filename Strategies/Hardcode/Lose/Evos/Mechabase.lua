@@ -1,7 +1,7 @@
 TDS:RemoveIndex()
 getgenv().AutoSkip = true
 
-TDS:Loadout("Farm", "Boomerang", "Crook Boss", "Scout", "EvolvedOperator")
+TDS:Loadout("Farm", "Boomerang", "Crook Boss", "Military Base", "EvolvedMecha Base")
 TDS:Mode("Hardcore")
 TDS:GameInfo("Wretched Front", {})
 
@@ -183,5 +183,5 @@ TDS:Sell(4)
 TDS:Sell(14)
 TDS:Sell(20)
 TDS:Sell(19)
-TDS:Place("Minigunner", 33.58119201660156, -0.6821142435073853, 9.561090469360352)
-TDS:Place("EvolvedJuggernaut", 33.22784423828125, -0.573955237865448, 5.592906951904297)
+TDS:Place("Military Base", 33.58119201660156, -0.6821142435073853, 9.561090469360352)
+TDS:Place("EvolvedMecha Base", 33.22784423828125, -0.573955237865448, 5.592906951904297)
