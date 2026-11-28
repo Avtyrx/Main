@@ -1,7 +1,7 @@
 TDS:RemoveIndex()
 getgenv().AutoSkip = true
 
-TDS:Loadout("Farm", "Boomerang", "Crook Boss", "Minigunner", "Shotgunner")
+TDS:Loadout("Farm", "Boomerang", "Crook Boss", "", "")
 TDS:Mode("Hardcore")
 TDS:GameInfo("Wretched Front", {})
 
@@ -175,7 +175,12 @@ TDS:VoteSkip(28)
 
 -- [ Wave 29 ] --
 TDS:WaitForWave(29)
-TDS:SellAll(29)
-TDS:Place("Crook Boss", 6.482155799865723, 1.3889966011047363, 27.96990966796875)
-TDS:Place("Minigunner", 33.58119201660156, -0.6821142435073853, 9.561090469360352)
-TDS:Place("Shotgunner", 33.22784423828125, -0.573955237865448, 5.592906951904297)
+TDS:Sell(8)
+TDS:Sell(13)
+TDS:Sell(15)
+TDS:Sell(18)
+TDS:Sell(4)
+TDS:Sell(14)
+TDS:Sell(20)
+TDS:Sell(19)
+
